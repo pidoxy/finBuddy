@@ -1,0 +1,148 @@
+[
+{"input_ids": tokenizer("What is the key concept of Rich Dad Poor Dad?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("The key concept is financial literacy.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What is the key concept of Rich Dad Poor Dad?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("The key concept is financial literacy and understanding how money works.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("Why did Robert Kiyosaki have two dads?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("He had a biological father (Poor Dad) and a friend’s father (Rich Dad) who influenced his thinking about money.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What lesson did 'Rich Dad' teach about money?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("'Rich Dad' taught that the rich make money work for them, rather than working for money.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What does 'Poor Dad' believe about education?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("'Poor Dad' believed in traditional education as the path to success.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("How does 'Rich Dad' define assets?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Assets are things that put money in your pocket.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What is the 'Rat Race' according to Kiyosaki?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("The 'Rat Race' is the cycle of working for money without achieving financial independence.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("Why is financial education important?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Financial education empowers individuals to build wealth and achieve financial freedom.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What is Kiyosaki's view on owning a house?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("He considers a house to be a liability unless it generates income.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("How does 'Rich Dad' view taxes?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("'Rich Dad' believes taxes punish producers and rewards non-producers.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What was Kiyosaki's first lesson in making money?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("He learned the importance of financial intelligence over merely earning money.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What role does fear play in financial decisions?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Fear of not having money keeps people trapped in the 'Rat Race'.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What did Kiyosaki learn about job security?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Job security is often an illusion that prevents financial independence.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("How does mindset affect financial success?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("A mindset focused on growth and learning leads to financial success.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("Why does 'Rich Dad' discourage working for a paycheck?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Because it leads to dependence on employers rather than financial freedom.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What does Kiyosaki say about taking risks?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Learning to manage risk is essential for financial growth.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("How does 'Rich Dad' suggest one should approach investments?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Invest in assets that generate passive income.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What is the significance of 'financial freedom'?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Financial freedom means having enough income to cover expenses without relying on work.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("How can one achieve financial freedom?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("By acquiring assets that produce income and reducing liabilities.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What was Kiyosaki's experience with his first job?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("He realized that working for money wouldn't make him rich.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What does 'Rich Dad' teach about entrepreneurship?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Entrepreneurship allows for control over one's financial destiny.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("Why is understanding taxes important?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Knowing how taxes work can help minimize tax liabilities and increase wealth.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What is the role of corporations in wealth building?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Corporations can protect personal assets and offer tax advantages.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("How did 'Rich Dad' view the education system?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("He believed it didn't teach financial literacy, which is crucial for success.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What was the impact of 'Rich Dad's' lessons on Kiyosaki?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("They shaped his understanding of money and led him to financial success.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What is the first step to financial literacy?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Recognizing the difference between assets and liabilities.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What is the main theme of Why 'A' Students Work for 'C' Students?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("The theme is that traditional education often fails to teach financial intelligence.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("Why do 'A' students often work for 'C' students?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("'C' students often take more risks and pursue entrepreneurship, leading to financial success.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What does Kiyosaki believe is missing in traditional education?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("A focus on financial literacy and real-world money management.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("How does Kiyosaki define financial education?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Understanding how to manage, invest, and grow money.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What is the role of parents in teaching financial literacy?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Parents should actively teach their children about money and investing.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("Why is entrepreneurship important according to Kiyosaki?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("It provides control over one's financial future and opportunities for wealth.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("How can 'C' students become successful entrepreneurs?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("By thinking creatively, taking risks, and focusing on financial education.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What is the importance of understanding money?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("It is crucial for achieving financial independence and avoiding financial struggles.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("Why is risk-taking emphasized in the book?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Risk-taking is necessary for innovation and financial growth.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What does Kiyosaki say about job security?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Job security is an outdated concept in today's economy.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("How can financial education change one's life?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("It provides the knowledge to make informed financial decisions and build wealth.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What is Kiyosaki's view on formal education?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("While important, it should be complemented with financial education.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("Why are financial skills crucial for entrepreneurs?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("They help manage and grow a business successfully.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What is the 'school-smart' versus 'street-smart' concept?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("'School-smart' refers to academic knowledge, while 'street-smart' is practical, real-world knowledge.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("How does Kiyosaki suggest improving financial literacy?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Through self-education, mentorship, and real-life experience.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("Why are 'A' students more likely to follow traditional paths?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("They are often trained to excel in structured environments and may avoid risk.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What is the significance of thinking outside the box?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("It leads to innovative solutions and opportunities that others might miss.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("How does Kiyosaki view the role of mentors?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Mentors are essential for learning from the experiences of others.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What is the importance of financial independence?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("It allows individuals to make life choices without being constrained by financial concerns.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("How can one develop an entrepreneurial mindset?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("By embracing challenges, taking risks, and continuously learning.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What does Kiyosaki say about wealth and happiness?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Wealth can provide freedom, but happiness comes from pursuing passions and goals.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("Why is continuous learning important?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("It helps adapt to changing environments and improves decision-making.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("How can 'A' students benefit from financial education?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("By gaining the skills needed to manage money and create wealth outside traditional jobs.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("What is the role of creativity in entrepreneurship?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("Creativity leads to innovation and solving problems in unique ways.", return_tensors="pt")["input_ids"].squeeze()},
+{"input_ids": tokenizer("How can one balance academic success with financial intelligence?", return_tensors="pt")["input_ids"].squeeze(),
+"labels": tokenizer("By pursuing both formal education and real-world financial knowledge.", return_tensors="pt")["input_ids"].squeeze()}
+]
+
+from flask import Flask, request, jsonify
+import os
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM  # Import the required classes
+from model import train_model  # Assuming train_model is a custom function in model.py
+
+app = Flask(__name__)
+
+# Initialize the tokenizer and model
+tokenizer = AutoTokenizer.from_pretrained("t5-small")  # Adjust the model name as per your use case
+# model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-base")
+
+# Sample training data
+training_data = [
+    {"input_ids": tokenizer("What is the key concept of Rich Dad Poor Dad?", return_tensors="pt")["input_ids"].squeeze(), 
+     "labels": tokenizer("The key concept is financial literacy.", return_tensors="pt")["input_ids"].squeeze()},
+]
+
+# Train the model only if there is training data
+if training_data:
+    model = train_model( tokenizer=tokenizer, training_data=training_data, output_dir="./fin_intel_model")
+
+@app.route('/test', methods=['GET'])
+def test():
+    return "Server is running!", 200
+
+@app.route('/chat', methods=['POST'])
+def chat():
+    """Handles chat requests."""
+    try:
+        user_question = request.json['question']
+        inputs = tokenizer(user_question, return_tensors="pt")
+        output = model.generate(**inputs)
+        answer = tokenizer.decode(output[0], skip_special_tokens=True)
+        return jsonify({'answer': answer})
+    except KeyError:
+        return jsonify({'error': 'Missing "question" in the request'}), 400
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+if __name__ == '__main__':
+    os.system('ngrok http 5508')
+    os.environ['NGROK_AUTHTOKEN'] = '2DtAW5mT5k6MGbe3lJSMDDS0wyy_2gszvhmqUfDMdj3gVRgtv' 
+    app.run(debug=False, port=5508)
