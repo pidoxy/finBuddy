@@ -3,3 +3,4 @@ finBuddy/
 finChat/
 venv/
 
+*node_modules/
