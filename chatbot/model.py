@@ -1,6 +1,6 @@
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, Trainer, TrainingArguments
 
-def train_model(tokenizer, training_data, model_name="google/flan-t5-base", output_dir="./fin_intel_model"):
+def train_model(tokenizer, training_data, model_name="google/flan-t5-large", output_dir="./fin_intel_model"):
     """Fine-tunes a Gemini model on provided training data."""
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
@@ -8,7 +8,7 @@ def train_model(tokenizer, training_data, model_name="google/flan-t5-base", outp
     training_args = TrainingArguments(
         output_dir=output_dir,
         num_train_epochs=3, 
-        per_device_train_batch_size=8,
+        per_device_train_batch_size=1,
         learning_rate=2e-5,
     )
 
